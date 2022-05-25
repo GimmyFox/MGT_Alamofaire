@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97148E4E283E7E2200100632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E4D283E7E2200100632 /* AppDelegate.swift */; };
+		97148E50283E7E2200100632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E4F283E7E2200100632 /* SceneDelegate.swift */; };
+		97148E52283E7E2200100632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E51283E7E2200100632 /* ViewController.swift */; };
+		97148E55283E7E2200100632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97148E53283E7E2200100632 /* Main.storyboard */; };
+		97148E58283E7E2200100632 /* MGT_Alamofaire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97148E56283E7E2200100632 /* MGT_Alamofaire.xcdatamodeld */; };
+		97148E5A283E7E2500100632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97148E59283E7E2500100632 /* Assets.xcassets */; };
+		97148E5D283E7E2500100632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97148E5B283E7E2500100632 /* LaunchScreen.storyboard */; };
+		97148E68283E7E2600100632 /* MGT_AlamofaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E67283E7E2600100632 /* MGT_AlamofaireTests.swift */; };
+		97148E72283E7E2600100632 /* MGT_AlamofaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E71283E7E2600100632 /* MGT_AlamofaireUITests.swift */; };
+		97148E74283E7E2600100632 /* MGT_AlamofaireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97148E73283E7E2600100632 /* MGT_AlamofaireUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97148E64283E7E2500100632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97148E42283E7E2200100632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97148E49283E7E2200100632;
+			remoteInfo = MGT_Alamofaire;
+		};
+		97148E6E283E7E2600100632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97148E42283E7E2200100632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97148E49283E7E2200100632;
+			remoteInfo = MGT_Alamofaire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97148E4A283E7E2200100632 /* MGT_Alamofaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGT_Alamofaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97148E4D283E7E2200100632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97148E4F283E7E2200100632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97148E51283E7E2200100632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97148E54283E7E2200100632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97148E57283E7E2200100632 /* MGT_Alamofaire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MGT_Alamofaire.xcdatamodel; sourceTree = "<group>"; };
+		97148E59283E7E2500100632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97148E5C283E7E2500100632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97148E5E283E7E2500100632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97148E63283E7E2500100632 /* MGT_AlamofaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGT_AlamofaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97148E67283E7E2600100632 /* MGT_AlamofaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGT_AlamofaireTests.swift; sourceTree = "<group>"; };
+		97148E6D283E7E2600100632 /* MGT_AlamofaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGT_AlamofaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97148E71283E7E2600100632 /* MGT_AlamofaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGT_AlamofaireUITests.swift; sourceTree = "<group>"; };
+		97148E73283E7E2600100632 /* MGT_AlamofaireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGT_AlamofaireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97148E47283E7E2200100632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E60283E7E2500100632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E6A283E7E2600100632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97148E41283E7E2200100632 = {
+			isa = PBXGroup;
+			children = (
+				97148E4C283E7E2200100632 /* MGT_Alamofaire */,
+				97148E66283E7E2600100632 /* MGT_AlamofaireTests */,
+				97148E70283E7E2600100632 /* MGT_AlamofaireUITests */,
+				97148E4B283E7E2200100632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97148E4B283E7E2200100632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97148E4A283E7E2200100632 /* MGT_Alamofaire.app */,
+				97148E63283E7E2500100632 /* MGT_AlamofaireTests.xctest */,
+				97148E6D283E7E2600100632 /* MGT_AlamofaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97148E4C283E7E2200100632 /* MGT_Alamofaire */ = {
+			isa = PBXGroup;
+			children = (
+				97148E4D283E7E2200100632 /* AppDelegate.swift */,
+				97148E4F283E7E2200100632 /* SceneDelegate.swift */,
+				97148E51283E7E2200100632 /* ViewController.swift */,
+				97148E53283E7E2200100632 /* Main.storyboard */,
+				97148E59283E7E2500100632 /* Assets.xcassets */,
+				97148E5B283E7E2500100632 /* LaunchScreen.storyboard */,
+				97148E5E283E7E2500100632 /* Info.plist */,
+				97148E56283E7E2200100632 /* MGT_Alamofaire.xcdatamodeld */,
+			);
+			path = MGT_Alamofaire;
+			sourceTree = "<group>";
+		};
+		97148E66283E7E2600100632 /* MGT_AlamofaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				97148E67283E7E2600100632 /* MGT_AlamofaireTests.swift */,
+			);
+			path = MGT_AlamofaireTests;
+			sourceTree = "<group>";
+		};
+		97148E70283E7E2600100632 /* MGT_AlamofaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97148E71283E7E2600100632 /* MGT_AlamofaireUITests.swift */,
+				97148E73283E7E2600100632 /* MGT_AlamofaireUITestsLaunchTests.swift */,
+			);
+			path = MGT_AlamofaireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97148E49283E7E2200100632 /* MGT_Alamofaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97148E77283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_Alamofaire" */;
+			buildPhases = (
+				97148E46283E7E2200100632 /* Sources */,
+				97148E47283E7E2200100632 /* Frameworks */,
+				97148E48283E7E2200100632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGT_Alamofaire;
+			productName = MGT_Alamofaire;
+			productReference = 97148E4A283E7E2200100632 /* MGT_Alamofaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97148E62283E7E2500100632 /* MGT_AlamofaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97148E7A283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_AlamofaireTests" */;
+			buildPhases = (
+				97148E5F283E7E2500100632 /* Sources */,
+				97148E60283E7E2500100632 /* Frameworks */,
+				97148E61283E7E2500100632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97148E65283E7E2500100632 /* PBXTargetDependency */,
+			);
+			name = MGT_AlamofaireTests;
+			productName = MGT_AlamofaireTests;
+			productReference = 97148E63283E7E2500100632 /* MGT_AlamofaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97148E6C283E7E2600100632 /* MGT_AlamofaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97148E7D283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_AlamofaireUITests" */;
+			buildPhases = (
+				97148E69283E7E2600100632 /* Sources */,
+				97148E6A283E7E2600100632 /* Frameworks */,
+				97148E6B283E7E2600100632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97148E6F283E7E2600100632 /* PBXTargetDependency */,
+			);
+			name = MGT_AlamofaireUITests;
+			productName = MGT_AlamofaireUITests;
+			productReference = 97148E6D283E7E2600100632 /* MGT_AlamofaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97148E42283E7E2200100632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					97148E49283E7E2200100632 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					97148E62283E7E2500100632 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 97148E49283E7E2200100632;
+					};
+					97148E6C283E7E2600100632 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 97148E49283E7E2200100632;
+					};
+				};
+			};
+			buildConfigurationList = 97148E45283E7E2200100632 /* Build configuration list for PBXProject "MGT_Alamofaire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97148E41283E7E2200100632;
+			productRefGroup = 97148E4B283E7E2200100632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97148E49283E7E2200100632 /* MGT_Alamofaire */,
+				97148E62283E7E2500100632 /* MGT_AlamofaireTests */,
+				97148E6C283E7E2600100632 /* MGT_AlamofaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97148E48283E7E2200100632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97148E5D283E7E2500100632 /* LaunchScreen.storyboard in Resources */,
+				97148E5A283E7E2500100632 /* Assets.xcassets in Resources */,
+				97148E55283E7E2200100632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E61283E7E2500100632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E6B283E7E2600100632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97148E46283E7E2200100632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97148E52283E7E2200100632 /* ViewController.swift in Sources */,
+				97148E4E283E7E2200100632 /* AppDelegate.swift in Sources */,
+				97148E50283E7E2200100632 /* SceneDelegate.swift in Sources */,
+				97148E58283E7E2200100632 /* MGT_Alamofaire.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E5F283E7E2500100632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97148E68283E7E2600100632 /* MGT_AlamofaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97148E69283E7E2600100632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97148E74283E7E2600100632 /* MGT_AlamofaireUITestsLaunchTests.swift in Sources */,
+				97148E72283E7E2600100632 /* MGT_AlamofaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97148E65283E7E2500100632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97148E49283E7E2200100632 /* MGT_Alamofaire */;
+			targetProxy = 97148E64283E7E2500100632 /* PBXContainerItemProxy */;
+		};
+		97148E6F283E7E2600100632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97148E49283E7E2200100632 /* MGT_Alamofaire */;
+			targetProxy = 97148E6E283E7E2600100632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97148E53283E7E2200100632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97148E54283E7E2200100632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97148E5B283E7E2500100632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97148E5C283E7E2500100632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97148E75283E7E2600100632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97148E76283E7E2600100632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97148E78283E7E2600100632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MGT_Alamofaire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-Alamofaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97148E79283E7E2600100632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MGT_Alamofaire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-Alamofaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97148E7B283E7E2600100632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-AlamofaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGT_Alamofaire.app/MGT_Alamofaire";
+			};
+			name = Debug;
+		};
+		97148E7C283E7E2600100632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-AlamofaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGT_Alamofaire.app/MGT_Alamofaire";
+			};
+			name = Release;
+		};
+		97148E7E283E7E2600100632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-AlamofaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGT_Alamofaire;
+			};
+			name = Debug;
+		};
+		97148E7F283E7E2600100632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FA65R7P49;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moc.elppa.MGT-AlamofaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGT_Alamofaire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97148E45283E7E2200100632 /* Build configuration list for PBXProject "MGT_Alamofaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97148E75283E7E2600100632 /* Debug */,
+				97148E76283E7E2600100632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97148E77283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_Alamofaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97148E78283E7E2600100632 /* Debug */,
+				97148E79283E7E2600100632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97148E7A283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_AlamofaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97148E7B283E7E2600100632 /* Debug */,
+				97148E7C283E7E2600100632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97148E7D283E7E2600100632 /* Build configuration list for PBXNativeTarget "MGT_AlamofaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97148E7E283E7E2600100632 /* Debug */,
+				97148E7F283E7E2600100632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97148E56283E7E2200100632 /* MGT_Alamofaire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97148E57283E7E2200100632 /* MGT_Alamofaire.xcdatamodel */,
+			);
+			currentVersion = 97148E57283E7E2200100632 /* MGT_Alamofaire.xcdatamodel */;
+			path = MGT_Alamofaire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97148E42283E7E2200100632 /* Project object */;
+}
